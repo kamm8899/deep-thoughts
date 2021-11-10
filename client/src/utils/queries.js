@@ -1,7 +1,5 @@
 import { gql } from '@apollo/client';
 
-import gql from 'graphql-tag';
-
 export const QUERY_THOUGHTS = gql`
   query thoughts($username: String) {
     thoughts(username: $username) {
